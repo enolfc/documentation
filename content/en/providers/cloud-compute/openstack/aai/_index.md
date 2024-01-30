@@ -451,7 +451,7 @@ $ openstack group create ops
 $ openstack role add --domain egi.eu --group ops --project <your local ops project> member
 ```
 
-Now you can define the mapping of EGI Check-in users in to the groups you just
+Now you can define the mapping of EGI Check-in users into the groups you just
 created and restrict with the `OIDC-eduperson_entitlement` attribute which users
 will be members of those groups. Substitute the group IDs to the adequate values
 for your deployment:
